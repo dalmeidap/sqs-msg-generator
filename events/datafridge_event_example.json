@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "metadata": {
+    "type": "order-status-aggregator",
+    "version": 1,
+    "source": "PY",
+    "tracking": [
+      {
+        "name": "order-service",
+        "id": "79e9eee6-04f5-51d0-a885-b69723f23130_0"
+      }
+    ]
+  },
+  "content": {
+    "order_entity": {
+      "metadata": {
+        "type": "order",
+        "version": 1,
+        "source": "PY",
+        "tracking": [
+          {
+            "name": "ingester",
+            "id": "733847cf-8a70-4e99-b67f-27803df05717"
+          }
+        ],
+        "ingestion_timestamp": "2021-01-21T15:11:21.143Z"
+      },
+      "currency": "CLP",
+      "place_timestamp": "2021-01-21T15:11:18Z",
+      "brand_name": "PedidosYa TEST",
+      "vendor": {
+        "name": "Papa John's Las Condes",
+        "charges": {
+          "joker_fee": 0,
+          "joker_discount_fee": 0,
+          "discount_fee": 0
+        },
+        "id": "8421"
+      },
+      "business_type": "marketplace",
+      "corporate": false,
+      "promised_customer_timestamp": "2021-01-21T16:03:18Z",
+      "timestamp": "2021-01-21T15:11:18Z",
+      "order": {
+        "tax": null,
+        "items": [
+          {
+            "name": "Canadian Bacon familiar + cookie + bebida",
+            "options": [],
+            "id": "9681105",
+            "quantity": 1,
+            "unit_price": 14000,
+            "customer_notes": null
+          }
+        ],
+        "known_total_mismatch": 0,
+        "order_value": 14000
+      },
+      "delivery": {
+        "delivery_fee": 0,
+        "location": {
+          "city": "Santiago",
+          "street": "Av. Las Condes",
+          "latitude": -33.3934,
+          "district": "Santiago",
+          "geohash": "66jf48",
+          "address_text": "Av. Las Condes 9049 Depto. 1 esquina 1, Santiago",
+          "street_number": "9049",
+          "area_id": "2",
+          "city_id": "2",
+          "longitude": -70.5441
+        },
+        "tax": null,
+        "provider": "vendor_delivery"
+      },
+      "test_order": false,
+      "preorder": false,
+      "global_entity_id": "PY_TEST",
+      "customer": {
+        "channel": {
+          "type": "android",
+          "version": "Xiaomi|Mi A3|10|5.1.7.0-demo|d0eTO5vdTKa3f_uGmRIlBu:APA91bGH6FK7hYgSYkECE0lFkLxtS3F0fYTssFz0lrkL3d2o"
+        },
+        "payment": {
+          "paid": true,
+          "discount": 0,
+          "total_order_value": 14000,
+          "payment_method": "Spreedly CL, VISA - CREDIT",
+          "transaction_number": "26093947",
+          "payment_provider": "Spreedly CL"
+        },
+        "customer_id": "15864634",
+        "profile": {
+          "last_name": "mauricio.iribarnegaray",
+          "guest": false,
+          "id": "15864634",
+          "first_name": "mauricio.iribarnegaray",
+          "email": "mauricio.iribarnegaray@pedidosya.com"
+        }
+      },
+      "order_id": "140150067",
+      "country_code": "CL"
+    },
+    "order_statuses_entities": [
+      {
+        "timestamp": "2021-01-21T15:11:25.500Z",
+        "global_entity_id": "PY_TEST",
+        "order_id": "140150067",
+        "vendor": {
+          "id": "8421"
+        },
+        "country_code": "TEST",
+        "status": "DELIVERED",
+        "accepted": {
+          "estimated_delivery_time": "2021-01-21T15:57:25Z"
+        },
+        "metadata": {
+          "type": "order-status",
+          "version": 1,
+          "source": "PY",
+          "tracking": [
+            {
+              "name": "ingester",
+              "id": "2db02dda-01d9-4404-84c9-b54f46034c6a"
+            }
+          ],
+          "ingestion_timestamp": "2021-01-21T15:12:25.890Z"
+        }
+      }
+    ],
+    "timestamp": "2021-01-21T15:11:25.500Z"
+  },
+  "timestamp": "2021-01-21T15:11:25.500Z"
+}

@@ -1,0 +1,13 @@
+{
+  "action": "UPDATED",
+  "survey_id": "be153e6e-60f4-4266-ae6b-a18baaf01f38",
+  "global_entities_id": [
+    "PA_DO",
+    "PA_CU"
+  ],
+  "languages": [
+    "es",
+    "en",
+    "fr"
+  ]
+}
